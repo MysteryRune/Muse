@@ -1,0 +1,7 @@
+{
+  "name": "Muse",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
