@@ -9,9 +9,5 @@ export const routes: Routes = [
     path: 'account',
     loadComponent: () => import('./account/account.page').then( m => m.AccountPage)
   },
-  {
-    path: 'search',
-    loadComponent: () => import('./search/search.page').then( m => m.SearchPage)
-  },
-
 ];
+

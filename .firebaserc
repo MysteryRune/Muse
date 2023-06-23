@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "musicplayer-4a8d1": {
+      "hosting": {
+        "app": [
+          "musicplayer-4a8d1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "musicplayer-4a8d1"
+  }
+}
