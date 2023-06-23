@@ -75,7 +75,8 @@ export class SearchPage implements OnInit {
     'I Want to Hold Your Hand',
     'I Just Called to Say I Love You',
     'I Don\'t Want to Miss a Thing',
-    'I Can\'t Help Falling in Love'
+    'I Can\'t Help Falling in Love',
+    'All the Good Girls Go to Hell'
   ];
   sortedList!: Array<string>;
   filteredList!: Array<string>;
