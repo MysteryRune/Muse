@@ -13,8 +13,14 @@ export const routes: Routes = [
     path: 'album',
     loadComponent: () => import('./album/album.page').then( m => m.AlbumPage)
   },
-
-
+{
+    path: 'account',
+    loadComponent: () => import('./account/account.page').then( m => m.AccountPage)
+  },
+  {
+    path: 'song-storage',
+    loadComponent: () => import('./song-storage/song-storage.page').then( m => m.SongStoragePage)
+  },
 
 ];
 
