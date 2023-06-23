@@ -1,0 +1,15 @@
+ion-title {
+    align-content: flex-start;
+}
+ion-header {
+    margin-top: 8%;
+}
+.headlines {
+    text-align: left;
+}ion-header {
+    --padding-top: 8%;
+}
+
+ion-title, ion-content {
+    font-family: "BeVietNamPro";
+}

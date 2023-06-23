@@ -8,7 +8,7 @@ import recentlyPlayed from '../../assets/mockdata/recentlyPlayed.json'
 import heavyRotation from '../../assets/mockdata/heavyRotation.json'
 import jumBackIn from '../../assets/mockdata/jumpBackIn.json'
 
-// import { SwiperModule } from '../../../node_modules/swiper/modules';
+import { SwiperModule } from 'swiper/angular';
 
 
 @Component({
@@ -16,7 +16,7 @@ import jumBackIn from '../../assets/mockdata/jumpBackIn.json'
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, /*SwiperModule*/]
+  imports: [IonicModule, CommonModule, FormsModule, SwiperModule]
 })
 export class HomePage implements OnInit {
   data = [
