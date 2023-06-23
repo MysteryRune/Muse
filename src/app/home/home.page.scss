@@ -1,0 +1,22 @@
+ion-content{
+    --padding-top: 40px;
+}
+
+.title-with-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-icon {
+    margin-left: 35%; /* Adjust the margin as needed */
+  }
+  
+
+.section-header {
+    color: #000;
+    font-family: 'BeVietNamPro';
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
