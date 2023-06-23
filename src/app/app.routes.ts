@@ -9,4 +9,9 @@ export const routes: Routes = [
     path: 'account',
     loadComponent: () => import('./account/account.page').then( m => m.AccountPage)
   },
+  {
+    path: 'song-storage',
+    loadComponent: () => import('./song-storage/song-storage.page').then( m => m.SongStoragePage)
+  },
+
 ];
