@@ -1,0 +1,44 @@
+.center_avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.center_header{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bold_text_1{
+    font-weight: 900;
+    font-size: large;
+}
+
+.flex_1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.profile_name{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.activy_annoucement{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.selection{
+    margin-left: 20px;
+}
