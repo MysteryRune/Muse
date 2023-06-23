@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { Router } from '@angular/router';
 
-import recentlyPlayed from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/recentlyPlayed.json'
-import heavyRotation from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/heavyRotation.json'
-import jumBackIn from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/jumpBackIn.json'
+import recentlyPlayed from '../../assets/mockdata/recentlyPlayed.json'
+import heavyRotation from '../../assets/mockdata/heavyRotation.json'
+import jumBackIn from '../../assets/mockdata/jumpBackIn.json'
 
-import { SwiperModule } from 'swiper/angular';
+// import { SwiperModule } from '../../../node_modules/swiper/modules';
 
 
 @Component({
@@ -16,7 +16,7 @@ import { SwiperModule } from 'swiper/angular';
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, SwiperModule]
+  imports: [IonicModule, CommonModule, FormsModule, /*SwiperModule*/]
 })
 export class HomePage implements OnInit {
   data = [

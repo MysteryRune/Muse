@@ -17,6 +17,6 @@ import { SharedDirectivesModule } from '../directives/shared-directives.module';
     AlbumPageRoutingModule,
     //SharedDirectivesModule
   ],
-  declarations: [AlbumPage]
+  // declarations: [AlbumPage]
 })
 export class AlbumPageModule {}

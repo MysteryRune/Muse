@@ -7,29 +7,17 @@
 <ion-content [fullscreen]="true">
 
   <p class="announcement" alt="ammount_song">
-    Bài hát (0)
+    {{announcement}}
   </p>
 
   <ion-item-group class="ion-margin">
 
-    <ion-item>
-      <ion-label>Awesome Label</ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-label>Awesome Label</ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-label>Awesome Label</ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-label>Awesome Label</ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-label>Awesome Label</ion-label>
+    <ion-item
+    *ngFor="let song of songs" >
+      <img [src]="'/assets/images/albums/' + dasherize(song.image) + '.jpg'" width="40">
+      <div class="flex_2">
+        <p class="song_title">{{song.title}}</p>
+      </div>
     </ion-item>
     
   </ion-item-group>
