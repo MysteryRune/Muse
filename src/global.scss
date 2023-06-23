@@ -47,7 +47,6 @@ ion-content {
     font-weight: lighter;
     src: url('/assets/fonts/spotify-light.ttf');
   }
-
     
   @font-face {
     font-family: 'BeVietNamPro';
@@ -67,5 +66,8 @@ ion-content {
     src: url('/assets/fonts/BeVietnamPro-Bolder.ttf');
   }
 
+@import "swiper/scss";
+@import "swiper/scss/navigation";
+@import "swiper/scss/pagination";
 
 

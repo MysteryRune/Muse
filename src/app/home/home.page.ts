@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { Router } from '@angular/router';
 
-
-
 import recentlyPlayed from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/recentlyPlayed.json'
 import heavyRotation from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/heavyRotation.json'
 import jumBackIn from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/assets/mockdata/jumpBackIn.json'
+
+import { SwiperModule } from 'swiper/angular';
 
 
 @Component({
@@ -16,7 +16,7 @@ import jumBackIn from 'D:/Nhập môn ứng dụng di động/Final/Muse/src/ass
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  imports: [IonicModule, CommonModule, FormsModule, SwiperModule]
 })
 export class HomePage implements OnInit {
   data = [
@@ -43,7 +43,17 @@ export class HomePage implements OnInit {
 
   constructor(private router: Router) { }
 
+  openAlbum(album) {
+    const titleEscaped = encodeURIComponent(album.title);
+    this.router.navigateByUrl(`/home/home${titleEscaped}`);
+  }
 
+  // Helper function for image names
+  dasherize(string) {
+    return string.replace(/[A-Z]/g, function(char, index) {
+      return (index !== 0 ? '-' : '') + char.toLowerCase();
+    });
+  };
 
   ngOnInit() {
   }

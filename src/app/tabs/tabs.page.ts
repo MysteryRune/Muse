@@ -1,5 +1,5 @@
-import { Component, EnvironmentInjector, inject } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { Component, EnvironmentInjector, ViewChild, inject } from '@angular/core';
+import { IonTabs, IonicModule } from '@ionic/angular';
 
 @Component({
   selector: 'app-tabs',
@@ -10,6 +10,8 @@ import { IonicModule } from '@ionic/angular';
 })
 export class TabsPage {
   public environmentInjector = inject(EnvironmentInjector);
+  @ViewChild(IonTabs) tabs: IonTabs;
+  progress=42;
 
   constructor() {}
 }
