@@ -10,7 +10,7 @@ export const routes: Routes = [
     loadComponent: () => import('./account/account.page').then( m => m.AccountPage)
   },
   {
-    path: '',
+    path: 'search',
     loadComponent: () => import('./search/search.page').then( m => m.SearchPage)
   },
 
