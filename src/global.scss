@@ -26,7 +26,7 @@
 @import "@ionic/angular/css/flex-utils.css";
 
 ion-content {
-    --background: var(--ion-color-dark);
+    --background: var(ion-color-light);
   }
   
   @font-face {
@@ -47,3 +47,25 @@ ion-content {
     font-weight: lighter;
     src: url('/assets/fonts/spotify-light.ttf');
   }
+
+    
+  @font-face {
+    font-family: 'BeVietNamPro';
+    font-weight: lighter;
+    src: url('/assets/fonts/BeVietnamPro-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'BeVietNamPro';
+    font-weight: bold;
+    src: url('/assets/fonts/BeVietnamPro-SemiBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'BeVietNamPro';
+    font-weight: bolder;
+    src: url('/assets/fonts/BeVietnamPro-Bolder.ttf');
+  }
+
+
+
