@@ -5,11 +5,11 @@ describe('SongStoragePage', () => {
   let component: SongStoragePage;
   let fixture: ComponentFixture<SongStoragePage>;
 
-  beforeEach(async(() => {
+  beforeEach(async () => {
     fixture = TestBed.createComponent(SongStoragePage);
     component = fixture.componentInstance;
     fixture.detectChanges();
-  }));
+  });
 
   it('should create', () => {
     expect(component).toBeTruthy();
