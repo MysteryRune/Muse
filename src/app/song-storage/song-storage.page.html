@@ -11,12 +11,12 @@
   </p>
 
   <ion-item-group class="ion-margin">
-    <ion-item
+    <ion-item (click)="playMusic(song)"
     *ngFor="let song of songs" >
       <img [src]="'/assets/images/albums/' + dasherize(song.image) + '.jpg'" width="40">
       <ion-label>
         <p class="song_title">{{song.title}}</p>
-        <p class="singer_name">a</p>
+        <p class="singer_name">{{song.singer}}</p>
       </ion-label>
     </ion-item>
   </ion-item-group>

@@ -6,6 +6,15 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 import { Router } from '@angular/router';
 
+import songStorageData from '../../assets/mockdata/songStorage.json'
+
+interface Song {  
+  id: Number;  
+  image: String;  
+  title: String;
+  singer: String;
+}  
+
 @Component({
   selector: 'app-account',
   templateUrl: './account.page.html',
@@ -14,6 +23,8 @@ import { Router } from '@angular/router';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class AccountPage implements OnInit {
+
+  songs: Song[] = songStorageData;
 
   constructor() { }
 

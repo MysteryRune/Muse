@@ -1,10 +1,10 @@
 [
-    { "id": 1, "image": "exRe", "title": "Ex:Re" },
-    { "id": 2, "image": "swimming", "title": "Swimming" },
-    { "id": 3, "image": "theLegendOfMrRager", "title": "Man On The Moon II: The Legend of Mr. Rager" },
-    { "id": 4, "image": "seaOfCowards", "title": "Sea Of Cowards" },
-    { "id": 5, "image": "wishYouWereHere", "title": "Wish You Were Here" },
-    { "id": 6, "image": "extraMachine", "title": "Extraordinary Machine" },
-    { "id": 7, "image": "theCreekDrank", "title": "The Creek Drank The Cradle" }
+    { "id": 1, "image": "exRe", "title": "Too Sad", "singer": "Ex:Re", "fileName": "Too Sad.mp3" },
+    { "id": 2, "image": "swimming", "title": "Come Back to Earth", "singer": "Mac Miller", "fileName": "Mac Miller - Come Back To Earth.mp3" },
+    { "id": 3, "image": "theLegendOfMrRager", "title": "Don't Play This Song", "singer": "Kid Cudi", "fileName": "Don’t Play This Song.mp3" },
+    { "id": 4, "image": "seaOfCowards", "title": "Die by the Drop", "singer": "The Dead Weather", "fileName": "The Dead Weather - Die By The Drop (Official Music Video).mp3" },
+    { "id": 5, "image": "wishYouWereHere", "title": "Wish You Were Here", "singer": "Pink Floyd", "fileName": "Pink Floyd - Wish You Were Here.mp3" },
+    { "id": 6, "image": "extraMachine", "title": "Better Version Of Me", "singer": "Fiona Apple", "fileName": "Better Version Of Me.mp3" },
+    { "id": 7, "image": "theCreekDrank", "title": "An Angry Blade", "singer": "Iron & Wine", "fileName": "Iron & Wine - An Angry Blade.mp3" }
   ]
   
